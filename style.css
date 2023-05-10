@@ -1,4 +1,4 @@
-:root { 
+root { 
     --branco-principal: #FFFFFF;
     --cinza-secundario: #C0C0C0;
     --botao-azul: #167BF7;
@@ -6,11 +6,16 @@
 
 }
 
-body {
- 
-    background-color: var(--cor-de-fundo);
+ body{
+    background-color: #00030C;
+ }
 
+* { margin: 0;
+    padding: 0;
+}
 
+.principal{
+ background-image: url(Background.png);
 
 
 }
